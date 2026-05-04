@@ -10,10 +10,10 @@ function greet(name:string):void{
 }
 greet('bhagya')
 
-function add(a:number,b:number):number{
+function addFun(a:number,b:number):number{
     return a+b
 }
-console.log("Sum is:",add(45,12))
+console.log("Sum is:",addFun(45,12))
 
 function enterText(name:string,age?:number):string{
     return age?`Hello ${name} and age is ${age} `:`Hello ${name}`
