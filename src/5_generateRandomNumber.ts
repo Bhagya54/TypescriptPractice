@@ -3,3 +3,4 @@ let randNumIni=Math.random();
 let randomNum:number=Math.floor((randNumIni) * 11)
 console.log(randNumIni);
 console.log(randomNum)
+console.log(Math.floor((Math.random()) * 11));
