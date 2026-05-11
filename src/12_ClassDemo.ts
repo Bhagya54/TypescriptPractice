@@ -17,34 +17,34 @@ Local Variable
     > within a method      
 */
 
-export class Emp_Details{
-    empname:string;//hari //instance variable - global variable
-    empid:number;//123
-    static companyName="Infosys"
+export class Emp_Details {
+    empname: string;//hari //instance variable - global variable
+    empid: number;//123
+    static companyName = "Infosys"
 
-    constructor(empname:string,empid:number){
-        this.empname=empname
-        this.empid=empid
-   }
+    constructor(empname: string, empid: number) {
+        this.empname = empname
+        this.empid = empid
+    }
 
-   greet():string{//instance method
-    let a:number=12;
-    return `Hello, I am ${this.empname} and my empid is ${this.empid} and a value is ${a} `
-   }
+    greet(): string {//instance method
+        let a: number = 12;
+        return `Hello, I am ${this.empname} and my empid is ${this.empid} and a value is ${a} `
+    }
 
-   welcome():string{
-    return "welcome to ts programming: ${a}"
-   }
+    welcome(): string {
+        return "welcome to ts programming: ${a}"
+    }
 
 
 
-  
+
 }
 // instance variable - these variables can be accessed only through the object reference
 // object creation - instanstiation
 
-
-
+const emp1 = new Emp_Details("hari", 56);//object
+const emp2 = new Emp_Details("sarita", 78);//object
 
 
 
