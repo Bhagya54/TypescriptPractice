@@ -6,7 +6,7 @@ RBI - bank - set the rules - what should each bank should have functionality - w
 icici - implement rbi rules
 sbi - implement rbi rules
 hdfc
-Encapsulation
+Encapsulation- hide the data(variable)
 
 
 class Browser (parent)

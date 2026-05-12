@@ -2,10 +2,6 @@ interface RBI {
 
     withdraw(): void;
     deposit(): void;
-
-
-
-
 }
 
 
