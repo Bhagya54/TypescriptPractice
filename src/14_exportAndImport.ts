@@ -2,7 +2,6 @@
 //export module - import module
 
 import { Emp_Details } from "./12_ClassDemo";
-
 const e1 = new Emp_Details("hari", 123);//1 object
 console.log(e1.empname)
 console.log(e1.empid)
